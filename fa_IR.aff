@@ -1,0 +1,109 @@
+﻿;P = Past Particles
+;V = Present form of Verbs
+;N = Noun
+;n = Numbers
+;A = Adverb
+;L = Livings
+;a=Verb; but appending an alef makes an Adverb
+SET	UTF-8
+
+SFX	n	Y	3
+SFX	n	0	م	.
+SFX	n	0	می	.
+SFX	n	0	مین	.
+
+
+SFX	P	Y	6
+SFX	P	0	م	.
+SFX	P	0	ی	.
+SFX	P	0	یم	.
+SFX	P	0	ید	.
+SFX	P	0	ند	.
+SFX	P	0	نش	.
+
+PFX	P	Y	10
+PFX	P	0	ب	.
+PFX	P	ا	بی	.
+PFX	P	0	ن	.
+PFX	P	0	باز	.
+PFX	P	0	بر	.
+PFX	P	0	در	.
+PFX	P	0	فرا	.
+PFX	P	0	فرو	.
+PFX	P	0	وا	.
+PFX	P	0	ور	.
+
+PFX	V	Y	10
+PFX	V	0	ب	.
+PFX	V	ا	بی	.
+PFX	V	0	ن	.
+PFX	V	0	باز	.
+PFX	V	0	بر	.
+PFX	V	0	در	.
+PFX	V	0	فرا	.
+PFX	V	0	فرو	.
+PFX	V	0	وا	.
+PFX	V	0	ور	.
+
+
+SFX	P	Y	3
+SFX	P	0	ن	.
+SFX	P	0	ه/N	.
+SFX	P	0	نی/N	.
+
+SFX	V	Y	6
+SFX	V	0	م	.
+SFX	V	0	ی	.
+SFX	V	0	د	.
+SFX	V	0	یم	.
+SFX	V	0	ید/P	.
+SFX	V	0	ند	.
+
+SFX	V	Y	3
+SFX	V	0	ش/N	.
+SFX	V	0	ه/N	.
+SFX	V	0	نده/N	.
+
+PFX	V	Y	4
+PFX	V	0	ب	.
+PFX	V	0	ن	.
+PFX	V	0	م	.
+PFX	V	0	می‌‌	.
+
+SFX	N	Y	6
+SFX	N	0	م	[^ه]
+SFX	N	0	ت	[^ه]
+SFX	N	0	ش	[^ه]
+SFX	N	0	ام	[ه]
+SFX	N	0	ات	[ه]
+SFX	N	0	اش	[ه]
+
+SFX	N	Y	3
+SFX	N	0	مان	.
+SFX	N	0	تان	.
+SFX	N	0	شان	.
+
+SFX	N	Y	2
+SFX	N	0	ی	[^ه]
+SFX	N	0	یی	[^ه]
+
+SFX	N	Y	4
+SFX	N	ه	گی	.
+SFX	N	ه	گان	.
+SFX	N	ه	گانی	.
+SFX	N	ه	گانه	.
+
+SFX	A	Y	3
+SFX	A	0	ست	[وا]
+SFX	A	0	ی	.
+SFX	A	0	یی	.
+
+SFX	A	Y	1
+SFX	A	ه	گی	.
+
+SFX	L	Y	2
+SFX	L	0	ان/N	[^وا]
+SFX	L	0	یان/N	[وا]
+
+SFX	a	Y	1
+SFX	a	0	ا/A	.

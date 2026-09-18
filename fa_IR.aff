@@ -1,4 +1,4 @@
-﻿;P = Past Particles
+;P = Past Particles
 ;V = Present form of Verbs
 ;N = Noun
 ;n = Numbers
@@ -93,10 +93,12 @@ SFX	N	ه	گان	.
 SFX	N	ه	گانی	.
 SFX	N	ه	گانه	.
 
-SFX	A	Y	3
+SFX	A	Y	5
 SFX	A	0	ست	[وا]
 SFX	A	0	ی	.
 SFX	A	0	یی	.
+SFX	A	0	تر	.
+SFX	A	0	ترین	.
 
 SFX	A	Y	1
 SFX	A	ه	گی	.
